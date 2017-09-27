@@ -69,6 +69,7 @@ typedef struct {
 
   char *function;
   pcre *r_function;
+  sp_node_t *functions_list;
 
   char *hash;
   int simulation;
